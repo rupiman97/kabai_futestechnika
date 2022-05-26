@@ -1,5 +1,5 @@
 body nav{
-    position: fixed;
+    position: relative;
     width: 100%;
     background-color: rgb(0, 102, 255); 
     margin-bottom: 30px;
@@ -22,13 +22,17 @@ nav .email{
     color: white;
     font-weight: bold;
     padding-right: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-nav .phone{
+nav .phone a{
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
+}
+
+nav .phone a:hover{
+    color: black;
 }
 
 a{
