@@ -1,11 +1,23 @@
-.contactsDiv{
-   
+.contactsContainer{
+    background-color: aqua;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
-.contactsPhone i{
-    
+.contactsPhone{
+    text-align: center;
+    font-size: 24px;
 }
 
 .contactsPhone span{
+    font-weight: bold;
+}
 
+.contactsEmail{
+    text-align: center;
+    font-size: 24px;
+}
+
+.contactsEmail span{
+    font-weight: bold;
 }
