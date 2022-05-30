@@ -1,4 +1,10 @@
 .introductionText{
-    font-size: 26px;
+    font-size: 3rem;
     text-align: center;
+}
+
+.callmeText{
+    font-size: 2rem;
+    text-align: center;
+    color: snow;
 }

@@ -6,10 +6,11 @@ body nav{
     top: 0;
     width: 100%;
     background-color: rgb(0, 102, 255); 
-    margin-bottom: 30px;
+    margin-bottom: 0spx;
     font-weight: bold;
     box-shadow: 0px 2px 50px;
     z-index: 100;
+
 }
 
 nav .brandName{
