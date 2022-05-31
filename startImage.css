@@ -5,5 +5,12 @@
 }
 
 .startingDistance{
-    margin-top: 800px;
+    margin-top: 600px;
+}
+
+.brandTitle{
+    font-size: 64px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 1em;
 }
