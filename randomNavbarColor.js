@@ -9,5 +9,5 @@ function colorPicker(){
 function randomNavbarColor(){
     let navbar = document.getElementById("stickyNav");
     let colorValue = colorPicker();
-    navbar.style.backgroundColor = randomColors[colorValue];  
+    navbar.style.backgroundColor = randomColors[colorValue];
 }
