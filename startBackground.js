@@ -1,5 +1,5 @@
-window.onscroll = function() {setBackgroundImageSize()};
 window.onload = function() {setBackgroundImageSize()};
+window.onscroll = function() {setBackgroundImageSize()};
 window.onresize = function() {setBackgroundImageSize()};
 
 function setBackgroundImageSize() {
