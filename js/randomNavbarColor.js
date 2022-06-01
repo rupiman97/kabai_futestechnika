@@ -10,4 +10,5 @@ function randomNavbarColor(){
     let navbar = document.getElementById("stickyNav");
     let colorValue = colorPicker();
     navbar.style.backgroundColor = randomColors[colorValue];
+    console.log("szín");
 }
