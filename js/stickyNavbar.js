@@ -1,5 +1,6 @@
 window.onscroll = function() {setSticky()};
 
+
 var header = document.getElementById("stickyNav");
 var sticky = header.offsetTop;
 
