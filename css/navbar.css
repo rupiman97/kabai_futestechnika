@@ -24,12 +24,17 @@ nav .navText{
 }
 
 nav .email{
-    color: white;
+    color: snow;
     font-weight: bold;
-    padding-top: 8px;
     padding-right: 20px;
-    font-size: 16px;
-    padding-bottom: 8px;
+    font-size: 18px;
+}
+
+nav .email a{
+    color: snow;
+    font-weight: bold;
+    padding-right: 20px;
+    font-size: 18px;
 }
 
 nav .phone a{
