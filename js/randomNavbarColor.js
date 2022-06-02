@@ -1,12 +1,13 @@
-window.onload = function() {randomNavbarColor()};
+let loaded = false;
 
-const randomColors = ["Aquamarine", "DarkSeaGreen", "Khaki", "LightGreen"];
+const randomColors = ["CornflowerBlue", "DeepSkyBlue", "DodgerBlue", "MediumSeaGreen"];
 
-function randomNavbarColor(){
+if(!loaded){
     console.log("asd");
     let navbar = document.getElementById("stickyNav");
     let colorValue = colorPicker();
     navbar.style.backgroundColor = randomColors[colorValue];
+    loaded = true;
 }
 
 function colorPicker(){
