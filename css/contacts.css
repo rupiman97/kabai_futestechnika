@@ -1,25 +1,23 @@
 .contactsContainer{
     background-color: #2a2e3f;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .contactsPhone{
     color: snow;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.05em;
 }
 
 .contactsPhone span{
-    font-weight: bold;
 }
 
 .contactsEmail{
     color: snow;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.05em;
 }
 
 .contactsEmail span{
-    font-weight: bold;
 }
