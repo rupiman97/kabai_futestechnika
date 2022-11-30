@@ -1,0 +1,14 @@
+.cardWithCarousel{
+    max-width: 400px;
+    border: 2px solid rgb(27, 27, 27);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.cardWithCarousel > div{
+    border: 1px solid rgb(27, 27, 27);
+}
+
+.cardWithCarousel .cardWithCarouselBody h{
+    font-size: 2em;
+}

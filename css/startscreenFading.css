@@ -1,0 +1,10 @@
+#fadingpicture{
+    background-repeat: space;
+    background-size: 100%;
+    opacity: 1;
+}
+
+.fadingAnimation{
+    opacity: 0;
+    transition: 2s;
+}

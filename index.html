@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,8 +19,12 @@
   <link rel="stylesheet" href="css/referenceContainer.css">
   <link rel="stylesheet" href="css/introductionContainer.css">
   <link rel="stylesheet" href="css/cards.css">
+  <link rel="stylesheet" href="css/startscreenFading.css">
   <!--script files-->
   <script src="https://kit.fontawesome.com/6cebab10a9.js" crossorigin="anonymous"></script>
+
+  <img src="pictures/ac blur2.jpg" alt="" style="position: absolute; z-index: 10000;" id="fadingpicture" class="fadingAnimation">
+
 </head>
 
 <body>
@@ -34,10 +39,10 @@
     <div class="row justify-content-center container-fluid">
       <div class="col-xs"></div>
       <div class="col-7-sm">
-          <span>
-            <i class="fa-regular fa-snowflake fa-2x" style="color: snow; padding-right: 0.1em"></i>
-            <a class="brandName">Kabai hűtéstechnika</a>
-          </span>
+        <span>
+          <i class="fa-regular fa-snowflake fa-2x" style="color: snow; padding-right: 0.1em"></i>
+          <a class="brandName">Kabai hűtéstechnika</a>
+        </span>
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation" style="float: right;">
@@ -62,7 +67,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="vertical-align: middle;">
               <li class="email">
                 <i class="fa-solid fa-envelope fa-xl" style="padding-right: 0.2em"></i>
-                <a href="mailto:hopeszur@gmail.com">info@kabaihutestechnika.com</a> 
+                <a href="mailto:hopeszur@gmail.com">info@kabaihutestechnika.com</a>
               </li>
               <li class="phone">
                 <i class="fa-solid fa-phone fa-xl" style="color: snow; padding-right: 0.1em;"></i>
@@ -220,6 +225,7 @@
   <script src="js/stickyNavbar.js"></script>
   <script src="js/randomNavbarColor.js"></script>
   <script src="js/startBackground.js"></script>
+  <script src="js/fading.js"></script>
 </body>
 
 </html>
