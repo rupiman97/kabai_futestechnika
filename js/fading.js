@@ -15,11 +15,15 @@ setInterval(() => {
 
 function fading() {
     if (!allDone) {
-        if (!fadedStart) {
+        if (!fadedStart && document.readyState === "complete") {
             setTimeout(() => {
                 waitedForLoading = true;
-            }, 3000)
+                document.getElementById("webPageBody").style.visibility = "visible";
+                //document.getElementById("webPageHead").style.visibility = "visible";
+
+            }, 1000)
             fadedStart = true;
+            
         }
 
         if (waitedForLoading && !fadeCurrent) {
