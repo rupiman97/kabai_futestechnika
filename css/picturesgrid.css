@@ -19,6 +19,7 @@
     border-radius: 10px;
     max-height: 100%;
     max-width: 100%;
+    opacity: 0.7;
 
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -26,17 +27,26 @@
     -webkit-animation: out 0.6s ;
 }
 
+.onclickReferPicture{
+    position: fixed;
+    max-width: 90%;
+    max-height: 90%;
+    opacity: 1;
+    z-index: 999;
+}
+
 .referPicture:hover{
-    z-index: 2;
+    z-index: 100;
+    opacity: 1;
     -webkit-animation: in 0.6s forwards;
 }
 
 @keyframes in {
     from   { -webkit-transform: scale(1); border: 0px solid black;}
-    to { -webkit-transform: scale(1.5); border: 1px solid black; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    to { -webkit-transform: scale(1); border: 1px solid black; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
 }
 
 @keyframes out {
-    0%   { -webkit-transform: scale(1.5); border: 1px solid black; box-shadow: none;}
+    0%   { -webkit-transform: scale(1); border: 1px solid black; box-shadow: none;}
     100% { -webkit-transform: scale(1); border: 0px solid black;}
 }

@@ -1,7 +1,7 @@
 document.body.style.overflow = 'hidden';
 
 let val = document.getElementById("fadingpicture");
-let val2 = document.getElementById("loadSyncIcon")
+let val2 = document.getElementById("loadSyncIcon");
 let faded = false;
 let fadedStart = false;
 let waitedForLoading = false;
