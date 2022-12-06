@@ -21,8 +21,9 @@ function fading() {
                 document.getElementById("webPageBody").style.visibility = "visible";
                 //document.getElementById("webPageHead").style.visibility = "visible";
 
-            }, 1000)
+            }, 2000)
             fadedStart = true;
+            document.getElementById("webPageBody").style.visibility = "visible";
             
         }
 
@@ -42,6 +43,7 @@ function fadeOutPicture(opacityVal) {
     }, 50)
     if (opacityVal <= 0) {
         document.body.style.overflowY = 'visible';
+        document.body.style.overflowX = 'visible';
         val.style.visibility = 'hidden';
         allDone = true;
     }

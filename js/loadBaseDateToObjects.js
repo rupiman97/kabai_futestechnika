@@ -9,3 +9,11 @@ function maximumSizeOfFadingPicture() {
     val2.style.marginTop = screenHeight/2 -50 + "px";
     val2.style.visibility = 'visible';
 }
+
+function imageToSameSizeToScreenById(id){
+    let screenWidth = window.innerWidth;
+    let screenHeight = window.innerHeight;
+    let element = document.getElementById(id);
+    element.style.width = screenWidth + "px";
+    element.style.height = screenHeight + "px";
+}

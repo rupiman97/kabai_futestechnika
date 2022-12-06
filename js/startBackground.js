@@ -1,6 +1,7 @@
 window.onload = function () {
     setBackgroundImageSize();
     maximumSizeOfFadingPicture();
+    imageToSameSizeToScreenById("fadingpicture");
 };
 window.onscroll = function () {
     setBackgroundImageSize();
@@ -9,6 +10,7 @@ window.onscroll = function () {
 window.onresize = function () {
     setBackgroundImageSize();
     maximumSizeOfFadingPicture();
+    imageToSameSizeToScreenById("fadingpicture");
 };
 
 function setBackgroundImageSize() {
