@@ -2,4 +2,19 @@
     margin-right: 1em;
     margin-left: 1em;
     margin-top: 1em;
+    -webkit-animation: card_out 0.6s;
+}
+
+.card:hover{
+    -webkit-animation: card_in 0.6s forwards;
+}
+
+@keyframes card_in {
+    from   { -webkit-transform: scale(1); }
+    to { -webkit-transform: scale(1.1); }
+}
+
+@keyframes card_out {
+    0%   { -webkit-transform: scale(1.1); }
+    100% { -webkit-transform: scale(1); }
 }
