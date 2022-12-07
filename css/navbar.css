@@ -13,8 +13,8 @@ body nav{
 }
 
 nav .brandName{
-    font-size: 36px;
     color: white;
+    font-size: 36px;
 }
 
 nav .navText{
@@ -52,4 +52,12 @@ nav .phone a:hover{
 
 a{
     text-decoration: none;
+}
+
+@media screen and (max-width : 720px)
+{
+  nav .brandName
+  {
+    font-size: 24px;
+  }
 }
