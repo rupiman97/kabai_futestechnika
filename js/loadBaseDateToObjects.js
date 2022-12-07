@@ -3,10 +3,12 @@ function maximumSizeOfFadingPicture() {
     let val2 = document.getElementById("loadSyncIcon");
     let screenWidth = window.innerWidth;
     let screenHeight = window.innerHeight;
-    let scaleRatio = Math.min(screenWidth/val.clientWidth, screenHeight/val.clientHeight);
-    console.log(scaleRatio);
-    //val.style.scale = scaleRatio;
-    val2.style.marginTop = screenHeight/2 -50 + "px";
+    let topPercent = (screenHeight - val2.clientHeight)/2/screenHeight*100 + "%";
+    let leftPercent = (screenWidth - val2.clientWidth)/2/screenWidth*100 + "%";
+    console.log("topPercent: " + topPercent);
+    console.log("leftPercent: " + leftPercent)
+    val2.style.left = leftPercent;
+    val2.style.top = topPercent;
     val2.style.visibility = 'visible';
 }
 

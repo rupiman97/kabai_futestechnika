@@ -8,9 +8,7 @@ function enlargePicture(id){
         let screenWidth = window.innerWidth;
         let screenHeight = window.innerHeight;
         let leftPercent = (screenWidth - val.width)/2/screenWidth*100 + "%";
-        console.log("leftPercent: " + leftPercent);
         let bottomPercent = (screenHeight - val.height)/2/screenHeight*100 + "%";
-        console.log("bottomPercent: " + bottomPercent);
         val.style.left = leftPercent;
         val.style.bottom = bottomPercent;
     }
