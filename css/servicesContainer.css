@@ -1,3 +1,8 @@
-.servicesContainer{
-    padding-bottom: 30px;
+.servicesContainerKlima{
+    padding-bottom: 5em;
+    background-color: gainsboro;
+}
+
+.servicesContainerHutogep{
+    padding-bottom: 15em;
 }
